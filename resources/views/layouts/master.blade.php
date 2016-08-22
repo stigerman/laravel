@@ -39,8 +39,10 @@
     </nav>
 @show
  
-<div class="jumbotron">
-    <h1>Hello</h1>
+<div id ="main" class="jumbotron">
+    <div class="container">
+            <h1>E-Shop</h1>
+    </div>
 </div>
 <div class="container">
     @yield('content')
